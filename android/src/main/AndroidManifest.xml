@@ -54,6 +54,7 @@
 		android:fullBackupOnly="true"
 		android:backupAgent="com.shatteredpixel.yasd.android.AndroidBackupHandler">
 		<activity
+android:exported="true"
 			android:label="${appName}"
 			android:name="com.shatteredpixel.yasd.android.AndroidLauncher">
 			<intent-filter >
@@ -62,6 +63,7 @@
 			</intent-filter>
 		</activity>
 		<activity
+android:exported="true"
 			android:label="${appName}"
 			android:name="com.shatteredpixel.yasd.android.AndroidGame"
 			android:screenOrientation="nosensor"
